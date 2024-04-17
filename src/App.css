@@ -1,0 +1,37 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 2rem;
+  /* text-align: center; */
+}
+.section-one {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.section-one h1 {
+  font-size: 11rem;
+  font-weight: 600;
+}
+.section-one-container {
+  display: flex;
+}
+.section-one-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section-one-container-middle {
+  min-width: 650px;
+  /* height: 400px; */
+}
+.chip {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 4px 6px;
+}
+
